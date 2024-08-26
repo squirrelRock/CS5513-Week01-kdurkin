@@ -1,5 +1,5 @@
 //CS55.13
-//first class assignment - a node.js server
+ //first class assignment - a node.js server
 
 
 let  coolhttp = require('http');
@@ -25,5 +25,5 @@ let coolserver = coolhttp.createServer(
 coolserver.listen(80, '0.0.0.0')
 
 
-console.log("start-up server running");
+console.log("start-up server is running");
 
